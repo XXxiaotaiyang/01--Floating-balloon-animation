@@ -1,3 +1,3 @@
 # 01--Floating-balloon-animation
 ## 效果演示
-![image](http://img4.imgtn.bdimg.com/it/u=1968526016,35658548&fm=21&gp=0.jpg) 
+![image](http://images.cnblogs.com/cnblogs_com/XXxiaotaiyang/763926/o_balloon.gif) 
