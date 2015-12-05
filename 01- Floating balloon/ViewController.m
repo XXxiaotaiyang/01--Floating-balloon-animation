@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "CCBalloonView.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // 将气球上升的View添加到现有的控制器上
+    CCBalloonView *BView = [[CCBalloonView alloc] init];
+    BView.frame = self.view.bounds;
+    BView.backgroundColor = [UIColor lightGrayColor];
+    [self.view addSubview:BView];
 }
 
 - (void)didReceiveMemoryWarning {

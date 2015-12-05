@@ -15,6 +15,7 @@
 		CA5E9E481C127B0D001BD38E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5E9E461C127B0D001BD38E /* LaunchScreen.storyboard */; };
 		CA5E9E531C127B0D001BD38E /* _1__Floating_balloonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5E9E521C127B0D001BD38E /* _1__Floating_balloonTests.m */; };
 		CA5E9E5E1C127B0D001BD38E /* _1__Floating_balloonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5E9E5D1C127B0D001BD38E /* _1__Floating_balloonUITests.m */; };
+		CA5E9E6D1C127B57001BD38E /* CCBalloonView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5E9E6C1C127B57001BD38E /* CCBalloonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CA5E9E591C127B0D001BD38E /* 01- Floating balloonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01- Floating balloonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5E9E5D1C127B0D001BD38E /* _1__Floating_balloonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1__Floating_balloonUITests.m; sourceTree = "<group>"; };
 		CA5E9E5F1C127B0D001BD38E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA5E9E6B1C127B57001BD38E /* CCBalloonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBalloonView.h; sourceTree = "<group>"; };
+		CA5E9E6C1C127B57001BD38E /* CCBalloonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBalloonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				CA5E9E3C1C127B0D001BD38E /* AppDelegate.m */,
 				CA5E9E3E1C127B0D001BD38E /* ViewController.h */,
 				CA5E9E3F1C127B0D001BD38E /* ViewController.m */,
+				CA5E9E6B1C127B57001BD38E /* CCBalloonView.h */,
+				CA5E9E6C1C127B57001BD38E /* CCBalloonView.m */,
 				CA5E9E411C127B0D001BD38E /* Main.storyboard */,
 				CA5E9E441C127B0D001BD38E /* Assets.xcassets */,
 				CA5E9E461C127B0D001BD38E /* LaunchScreen.storyboard */,
@@ -202,6 +207,7 @@
 		CA5E9E2D1C127B0D001BD38E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CC;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "闲人";
 				TargetAttributes = {
@@ -272,6 +278,7 @@
 			files = (
 				CA5E9E401C127B0D001BD38E /* ViewController.m in Sources */,
 				CA5E9E3D1C127B0D001BD38E /* AppDelegate.m in Sources */,
+				CA5E9E6D1C127B57001BD38E /* CCBalloonView.m in Sources */,
 				CA5E9E3A1C127B0D001BD38E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
